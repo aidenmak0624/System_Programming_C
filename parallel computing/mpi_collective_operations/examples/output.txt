@@ -1,0 +1,62 @@
+
+Process 0 before scatterv():
+ 0 
+Number of processes: 4
+N: 16
+displs[0]: 0 displs[1]: 2 displs[2]: 4 displs[3]: 6 
+Process 0 initialized sendBuffer:
+ 0 1 2 3 4 5 6 7 
+
+Process 0 after scatterv():
+ 0 
+
+Process 2 before scatterv():
+ 0 
+
+Process 3 before scatterv():
+ 0 
+
+Process 3 after scatterv():
+ 6 
+
+Process 1 before scatterv():
+ 0 
+
+Process 1 after scatterv():
+ 2 
+
+Process 2 after scatterv():
+ 4 
+
+
+
+start Gatherv()
+
+Process 0 after init for Gatherv():
+
+Process 3 after init for Gatherv():
+
+Process 1 after init for Gatherv():
+
+Process 2 after init for Gatherv():
+ 0Root process received: 0 10 11 20 21 22 30 31 32 33 
+ 1011
+Process 1,MPI_Reduce_Scatter()- local data: 2 3 4 5 
+ 30313233
+Process 3,MPI_Reduce_Scatter()- local data: 4 5 6 7 
+ 202122
+Process 2,MPI_Reduce_Scatter()- local data: 3 4 5 6 
+
+
+
+Start MPI_Reduce_Scatter()
+
+Process 0,MPI_Reduce_Scatter()- local data: 1 2 3 4 
+
+Process 1, received data: 14 
+
+Process 0, received data: 10 
+
+Process 3, received data: 22 
+
+Process 2, received data: 18 

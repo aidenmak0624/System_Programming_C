@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH -o /dev/null
+#SBATCH -e /dev/null
+
+# Set the number of processes here:
+#SBATCH -n 8
+
+# Change the name of the execuatable here:
+mpirun ./parallel_matrix_mult > output.txt
+

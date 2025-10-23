@@ -1,0 +1,37 @@
+Number of processes: 15
+N: 10
+
+
+myrank: 2, my next rank : 4 
+
+myrank: 1, my next rank : 3 
+
+myrank: 4, my next rank : 6 
+
+myrank: 3, my next rank : 5 
+
+myrank: 6, my next rank : 8 
+
+myrank: 5, my next rank : 7 
+
+myrank: 8, my next rank : 10 
+
+myrank: 7, my next rank : 9 
+
+myrank: 10, my next rank : 12 
+
+myrank: 9, my next rank : 11 
+
+myrank: 12, my next rank : 14 
+
+myrank: 14, my next rank : 0 
+
+myrank: 11, my next rank : 13 
+
+myrank: 13, my next rank : 0 
+vec:  9, 23, 33, 5, 8, 31, 87, 42, 10, 63,
+Odd team time: 0.000360
+
+Even team time: 0.000314
+
+ Even team Wins!

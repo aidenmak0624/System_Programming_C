@@ -1,0 +1,370 @@
+readME file.
+Name: Chin Wei Mak 
+ID: 7951379
+Assignment 2 
+Comp3430
+
+Files: MLFQ.c 
+file for Tasks: tasks.txt
+Note: every time calcuation/ method in this program uses microsecond, not millisecond.
+Makefile has been implemented. Please use make and make run.
+If any argument need a change, chang in Makefile and compile again.
+
+Analysis: Includes capture of 12 result from different combination of number of cpu and reset S using tasks.txt provided.
+
+//=====================================================================
+./MLFQ 1 200 tasks.txt
+Receiving Command...
+This MLFQ stimulation will have 1 CPU and reset priority after 200 us.
+total amount for type 0 :20, total turnaround: 2318782
+total amount for type 0 :20, total response: 89941
+total amount for type 1 :17, total turnaround: 6081235
+total amount for type 1 :17, total response: 72314
+total amount for type 2 :28, total turnaround: 17000384
+total amount for type 2 :28, total response: 131909
+total amount for type 3 :29, total turnaround: 18525842
+total amount for type 3 :29, total response: 131817
+
+Average Turnaround time per type:
+Type 0: 115939 usec
+Type 1: 357719 usec
+Type 2: 607156 usec
+Type 3: 638822 usec
+
+Average Response time per type:
+Type 0: 4497 usec
+Type 1: 4253 usec
+Type 2: 4711 usec
+Type 3: 4545 usec
+Halting Program...
+
+//=====================================================================
+./MLFQ 1 800 tasks.txt
+Receiving Command...
+This MLFQ stimulation will have 1 CPU and reset priority after 800 us.
+total amount for type 0 :20, total turnaround: 2315277
+total amount for type 0 :20, total response: 89852
+total amount for type 1 :17, total turnaround: 5953441
+total amount for type 1 :17, total response: 71336
+total amount for type 2 :28, total turnaround: 16580901
+total amount for type 2 :28, total response: 131627
+total amount for type 3 :29, total turnaround: 19738089
+total amount for type 3 :29, total response: 131853
+
+Average Turnaround time per type:
+Type 0: 115763 usec
+Type 1: 350202 usec
+Type 2: 592175 usec
+Type 3: 680623 usec
+
+Average Response time per type:
+Type 0: 4492 usec
+Type 1: 4196 usec
+Type 2: 4700 usec
+Type 3: 4546 usec
+Halting Program...
+//=====================================================================
+./MLFQ 1 1600 tasks.txt
+Receiving Command...
+This MLFQ stimulation will have 1 CPU and reset priority after 1600 us.
+total amount for type 0 :20, total turnaround: 2313206
+total amount for type 0 :20, total response: 89908
+total amount for type 1 :17, total turnaround: 5945828
+total amount for type 1 :17, total response: 72163
+total amount for type 2 :28, total turnaround: 16446980
+total amount for type 2 :28, total response: 132128
+total amount for type 3 :29, total turnaround: 19578145
+total amount for type 3 :29, total response: 132035
+
+Average Turnaround time per type:
+Type 0: 115660 usec
+Type 1: 349754 usec
+Type 2: 587392 usec
+Type 3: 675108 usec
+
+Average Response time per type:
+Type 0: 4495 usec
+Type 1: 4244 usec
+Type 2: 4718 usec
+Type 3: 4552 usec
+Halting Program...
+
+//=====================================================================
+./MLFQ 1 3200 tasks.txt
+Receiving Command...
+This MLFQ stimulation will have 1 CPU and reset priority after 3200 us.
+total amount for type 0 :20, total turnaround: 2326255
+total amount for type 0 :20, total response: 92064
+total amount for type 1 :17, total turnaround: 5953265
+total amount for type 1 :17, total response: 72715
+total amount for type 2 :28, total turnaround: 16469743
+total amount for type 2 :28, total response: 134824
+total amount for type 3 :29, total turnaround: 19625036
+total amount for type 3 :29, total response: 134977
+
+Average Turnaround time per type:
+Type 0: 116312 usec
+Type 1: 350192 usec
+Type 2: 588205 usec
+Type 3: 676725 usec
+
+Average Response time per type:
+Type 0: 4603 usec
+Type 1: 4277 usec
+Type 2: 4815 usec
+Type 3: 4654 usec
+Halting Program...
+
+//=====================================================================
+./MLFQ 2 200 tasks.txt
+Receiving Command...
+This MLFQ stimulation will have 2 CPU and reset priority after 200 us.
+total amount for type 0 :20, total turnaround: 2311598
+total amount for type 0 :20, total response: 91572
+total amount for type 1 :17, total turnaround: 6039332
+total amount for type 1 :17, total response: 72425
+total amount for type 2 :28, total turnaround: 16789940
+total amount for type 2 :28, total response: 134175
+total amount for type 3 :29, total turnaround: 19647342
+total amount for type 3 :29, total response: 134302
+
+Average Turnaround time per type:
+Type 0: 115579 usec
+Type 1: 355254 usec
+Type 2: 599640 usec
+Type 3: 677494 usec
+
+Average Response time per type:
+Type 0: 4578 usec
+Type 1: 4260 usec
+Type 2: 4791 usec
+Type 3: 4631 usec
+Halting Program...
+
+//=====================================================================
+./MLFQ 2 800 tasks.txt
+Receiving Command...
+his MLFQ stimulation will have 2 CPU and reset priority after 800 us.
+total amount for type 0 :20, total turnaround: 2323132
+total amount for type 0 :20, total response: 91559
+total amount for type 1 :17, total turnaround: 5955574
+total amount for type 1 :17, total response: 72575
+total amount for type 2 :28, total turnaround: 16728772
+total amount for type 2 :28, total response: 134145
+total amount for type 3 :29, total turnaround: 18821849
+total amount for type 3 :29, total response: 134344
+
+Average Turnaround time per type:
+Type 0: 116156 usec
+Type 1: 350327 usec
+Type 2: 597456 usec
+Type 3: 649029 usec
+
+Average Response time per type:
+Type 0: 4577 usec
+Type 1: 4269 usec
+Type 2: 4790 usec
+Type 3: 4632 usec
+Halting Program...
+
+//=====================================================================
+./MLFQ 2 1600 tasks.txt
+Receiving Command...
+This MLFQ stimulation will have 2 CPU and reset priority after 1600 us.
+total amount for type 0 :20, total turnaround: 2321253
+total amount for type 0 :20, total response: 90505
+total amount for type 1 :17, total turnaround: 5959496
+total amount for type 1 :17, total response: 71921
+total amount for type 2 :28, total turnaround: 17149394
+total amount for type 2 :28, total response: 132592
+total amount for type 3 :29, total turnaround: 17283704
+total amount for type 3 :29, total response: 132822
+
+Average Turnaround time per type:
+Type 0: 116062 usec
+Type 1: 350558 usec
+Type 2: 612478 usec
+Type 3: 595989 usec
+
+Average Response time per type:
+Type 0: 4525 usec
+Type 1: 4230 usec
+Type 2: 4735 usec
+Type 3: 4580 usec
+Halting Program...
+//=====================================================================
+./MLFQ 2 3200 tasks.txt
+Receiving Command...
+This MLFQ stimulation will have 2 CPU and reset priority after 3200 us.
+total amount for type 0 :20, total turnaround: 2314889
+total amount for type 0 :20, total response: 88523
+total amount for type 1 :17, total turnaround: 5952507
+total amount for type 1 :17, total response: 69821
+total amount for type 2 :28, total turnaround: 16512180
+total amount for type 2 :28, total response: 129581
+total amount for type 3 :29, total turnaround: 19666173
+total amount for type 3 :29, total response: 129885
+
+Average Turnaround time per type:
+Type 0: 115744 usec
+Type 1: 350147 usec
+Type 2: 589720 usec
+Type 3: 678143 usec
+
+Average Response time per type:
+Type 0: 4426 usec
+Type 1: 4107 usec
+Type 2: 4627 usec
+Type 3: 4478 usec
+Halting Program...
+
+//=====================================================================
+./MLFQ 8 200 tasks.txt
+Receiving Command...
+This MLFQ stimulation will have 8 CPU and reset priority after 200 us.
+total amount for type 0 :20, total turnaround: 2326830
+total amount for type 0 :20, total response: 92718
+total amount for type 1 :17, total turnaround: 6013947
+total amount for type 1 :17, total response: 73621
+total amount for type 2 :28, total turnaround: 16915128
+total amount for type 2 :28, total response: 136006
+total amount for type 3 :29, total turnaround: 19553264
+total amount for type 3 :29, total response: 135707
+
+Average Turnaround time per type:
+Type 0: 116341 usec
+Type 1: 353761 usec
+Type 2: 604111 usec
+Type 3: 674250 usec
+
+Average Response time per type:
+Type 0: 4635 usec
+Type 1: 4330 usec
+Type 2: 4857 usec
+Type 3: 4679 usec
+Halting Program...
+
+//=====================================================================
+./MLFQ 8 800 tasks.txt
+Receiving Command...
+This MLFQ stimulation will have 8 CPU and reset priority after 800 us.
+total amount for type 0 :20, total turnaround: 2320162
+total amount for type 0 :20, total response: 91017
+total amount for type 1 :17, total turnaround: 5958728
+total amount for type 1 :17, total response: 72188
+total amount for type 2 :28, total turnaround: 16611920
+total amount for type 2 :28, total response: 133407
+total amount for type 3 :29, total turnaround: 19755021
+total amount for type 3 :29, total response: 133491
+
+Average Turnaround time per type:
+Type 0: 116008 usec
+Type 1: 350513 usec
+Type 2: 593282 usec
+Type 3: 681207 usec
+
+Average Response time per type:
+Type 0: 4550 usec
+Type 1: 4246 usec
+Type 2: 4764 usec
+Type 3: 4603 usec
+Halting Program...
+
+//=====================================================================
+./MLFQ 8 1600 tasks.txt
+Receiving Command...
+This MLFQ stimulation will have 8 CPU and reset priority after 1600 us.
+total amount for type 0 :20, total turnaround: 2328506
+total amount for type 0 :20, total response: 93668
+total amount for type 1 :17, total turnaround: 5971908
+total amount for type 1 :17, total response: 75332
+total amount for type 2 :28, total turnaround: 16647906
+total amount for type 2 :28, total response: 137297
+total amount for type 3 :29, total turnaround: 18782676
+total amount for type 3 :29, total response: 137258
+
+Average Turnaround time per type:
+Type 0: 116425 usec
+Type 1: 351288 usec
+Type 2: 594568 usec
+Type 3: 647678 usec
+
+Average Response time per type:
+Type 0: 4683 usec
+Type 1: 4431 usec
+Type 2: 4903 usec
+Type 3: 4733 usec
+Halting Program...
+
+//=====================================================================
+./MLFQ 8 3200 tasks.txt
+Receiving Command...
+This MLFQ stimulation will have 8 CPU and reset priority after 3200 us.
+total amount for type 0 :20, total turnaround: 2324459
+total amount for type 0 :20, total response: 92475
+total amount for type 1 :17, total turnaround: 5956974
+total amount for type 1 :17, total response: 74851
+total amount for type 2 :28, total turnaround: 16489853
+total amount for type 2 :28, total response: 135882
+total amount for type 3 :29, total turnaround: 19643803
+total amount for type 3 :29, total response: 136005
+
+Average Turnaround time per type:
+Type 0: 116222 usec
+Type 1: 350410 usec
+Type 2: 588923 usec
+Type 3: 677372 usec
+
+Average Response time per type:
+Type 0: 4623 usec
+Type 1: 4403 usec
+Type 2: 4852 usec
+Type 3: 4689 usec
+Halting Program...
+//=====================================================================
+Analysis:
+How does the value of S affect turnaround time and response time? 
+Is the difference in turnaround time and response time what you expected to see as S and the number of CPUs change? Why or why not?
+
+Response:
+As S increases, both turnaround time and response time generally increase across different types of tasks.
+For example: 
+Average Turnaround time per type:
+1 CPU and reset priority after 3200 us: Type 3: 676725 usec
+1 CPU and reset priority after 200 us: Type 3: 638822 usec
+Average Response time per type:
+1 CPU and reset priority after 3200 us: Type 3: 4654 usec
+1 CPU and reset priority after 200 us: Type 3: 4545 usec
+
+This increase in turnaround time is expected because longer time allotment means that lower priority tasks may wait longer before being scheduled/ priority boost, leading to a longer overall time to completion.
+
+However there is insignificant to show response time is hugely affect as the task first enter in MLFQ will be assigned in first priority. 
+
+Generally, Type 0 tasks tend to have the lowest turnaround and response times, while Type 2(long_task)/3(I/O) tasks have the highest.
+Average Turnaround time per type:
+1 CPU and reset priority after 200 us: Type 0: 115939 usec
+1 CPU and reset priority after 200 us: Type 2: 607156 usec
+8 CPU and reset priority after 3200 us: Type 0: 677372 usec
+8 CPU and reset priority after 3200 us: Type 2: 588923 usec
+
+Average Response time per type:
+1 CPU and reset priority after 200 us: Type 0: 4497 usec
+1 CPU and reset priority after 200 us: Type 2: 4711 usec
+8 CPU and reset priority after 3200 us: Type 0: 4623 usec
+8 CPU and reset priority after 3200 us: Type 2: 4852 usec
+
+This difference is expected as longer time types of tasks may have lower levels of priority or resource requirements most of the processing time, leading to differences in how quickly they are processed.
+* There are observation that Type 0 increase significantly in 8 CPU, 3200 us compare to that of 1 CPU, 200us.
+It is assumed that it is due to the priory boost (more tasks will be boost together at the same time if longer S) and resource management among CPU (lost of proccessor affinity?).
+
+Analysis:
+How does adjusting the S value in the system affect the turnaround time or response time for long-running and I/O tasks specifically? Does it appear to be highly correlated?
+
+Response:
+Adjusting the S value affects both long-running and I/O-bound tasks.
+
+For long-running tasks, increasing S may lead to longer turnaround times as these tasks may need more CPU time to complete, and thus it would stay in lower priority queue for a long time until priority boost.
+
+For I/O-bound tasks, same as long-running task! longer time slices may allow them to execute more CPU-bound operations before them being preempted (as lower priority more quickly compare to other same time task), potentially increasing their completion times.
+
+There appears to be a positive correlation between S and both turnaround time and response time. As S increases, both time meausre tend to increase as well. This correlation is expected from behavior of the MLFQ algorithm, where longer time S lead to longer waiting times for tasks, incraasing both turnaround and response timesof most longer task.
